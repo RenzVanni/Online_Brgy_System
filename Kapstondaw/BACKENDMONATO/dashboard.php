@@ -114,6 +114,7 @@ function calculateAge($dob) {
     <?php unset($_SESSION['message']); ?>
     <?php endif ?>
 
+    <h1><?= 'error'?></h1>
     <div class="modal_notification">
         <div class="form_notification">
             <!-- <div class="one-notif">
